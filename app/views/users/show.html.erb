@@ -1,0 +1,7 @@
+<h2>Tolle Sachen von <%= @user.name %></h2>
+
+<div id="pins">
+  <%= render @pins %>
+</div>
+
+<%= will_paginate @pins %>
